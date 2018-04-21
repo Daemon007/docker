@@ -27,8 +27,6 @@ docker build -t daemonzjf/pptp .
 
 ```shell
 docker run -d -p 9090:9090 --link=oracle_ams:ams-db --name=pptp-ams daemonzjf/pptp
-
-docker run -it -p 9090:9090 --link=oracle_ams:ams-db --name=pptp-ams --rm daemonzjf/pptp
 ```
 
 
