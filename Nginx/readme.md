@@ -5,7 +5,11 @@
 docker pull nginx
 ```
 ## 下载配置文件
-
+``` bash
+wget https://raw.githubusercontent.com/Daemon007/docker/master/Nginx/leanote.conf
+https://raw.githubusercontent.com/Daemon007/docker/master/Nginx/nginx.conf
+https://raw.githubusercontent.com/Daemon007/docker/master/Nginx/run.sh
+```
 
 ## 创建工作目录
 
