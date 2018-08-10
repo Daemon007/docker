@@ -3,7 +3,9 @@
 
 环境准备：
 Oracle Client 镜像： daemonzjf/oracle-ee-11g-client-base
+
 安装包：
+```shell
 install/
 ├── Apache2.tar
 ├── axis2c-1.6.0.tar
@@ -14,6 +16,7 @@ install/
 ├── xQuantETL
 ├── xQuantPP
 └── xQuantTp
+```
 
 ## 构建镜像
 
